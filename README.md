@@ -31,7 +31,7 @@ quickshell -c ~/.config/quickshell/quickshell-virtual-keyboard/
 Pre-installed keyboard layouts are : QWERTY and AZERTY
 
 You can add your own layout by adding a `layoutname.json` in `~/.config/quickshell/quickshell-virtual-keyboard/layouts/` and configuring it to your liking.\
-Then, put the `layoutname` in "layout"'s value in the settings file.\
+Then, put the `layoutname` in "layout"'s value in the settings file. (WITHOUT the .json extension)\
 Check pre-installed layouts for examples.
 
 ## Known issues
