@@ -6,7 +6,7 @@ I made a virtual keyboard for accessibility purposes.
 `quickshell`
 `ydotool`
 
-Tested on ArchLinux, with Hyprland (should work in any Wayland environments where quickshell works)
+Tested on ArchLinux, with Hyprland (should work in any Wayland environment where quickshell works)
 
 ## Features
 - A virtual keyboard you can drag around anywhere on your screen (works with multiple screens)
