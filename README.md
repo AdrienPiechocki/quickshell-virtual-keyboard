@@ -42,4 +42,5 @@ Check pre-installed layouts for examples.
 
 ## Showcase
 
-https://github.com/user-attachments/assets/df076aac-dda9-42ce-9f60-40705195b89f
+https://github.com/user-attachments/assets/7d070d50-40df-4eda-be4a-a64c54be8729
+
