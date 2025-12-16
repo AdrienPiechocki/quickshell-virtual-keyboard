@@ -25,6 +25,7 @@ quickshell -c ~/.config/quickshell/quickshell-virtual-keyboard/
 ```
 
 **Change the settings by editing this file:** `~/.config/quickshell/quickshell-virtual-keyboard/settings.json`
+**Replace colors by changing this file:** `~/.config/quickshell/quickshell-virtual-keyboard/colors.json`
 
 ## About keyboard layouts
 
@@ -35,12 +36,12 @@ Then, put the `layoutname` in "layout"'s value in the settings file. (WITHOUT th
 Check pre-installed layouts for examples.
 
 ## Known issues
-- Drag n' drop does not work if a Panel is active (my fix requires keyboard focus changes on the main shell repo)
-- Drag n' drop is laggy when there are no window focused on any screen.
+- Drag n' drop is laggy when there are no window focused on any screen
 - Virtual keyboard always starts at 0x0 global coordinates on your screens (center of the main screen)
 
 
 ## Showcase
 
-https://github.com/user-attachments/assets/7d070d50-40df-4eda-be4a-a64c54be8729
+This showcase is the Noctalia-Shell plugin I made. Wich is the same as this repo.
 
+https://github.com/user-attachments/assets/df076aac-dda9-42ce-9f60-40705195b89f
