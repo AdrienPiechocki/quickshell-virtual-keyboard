@@ -24,7 +24,7 @@ git clone https://github.com/AdrienPiechocki/quickshell-virtual-keyboard.git ~/.
 quickshell -c ~/.config/quickshell/quickshell-virtual-keyboard/
 ```
 
-**Change the settings by editing this file:** `~/.config/quickshell/quickshell-virtual-keyboard/settings.json`
+**Change the settings by editing this file:** `~/.config/quickshell/quickshell-virtual-keyboard/settings.json`\
 **Replace colors by changing this file:** `~/.config/quickshell/quickshell-virtual-keyboard/colors.json`
 
 ## About keyboard layouts
