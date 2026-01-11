@@ -20,9 +20,14 @@ git clone https://github.com/AdrienPiechocki/quickshell-virtual-keyboard.git ~/.
 ```
 
 ## Using the plugin
+Create a bind to execute `virtual-keyboard.sh`
+
+Hyprland example: 
 ```
-./~/.config/quickshell/virtual-keyboard/virtual-keyboard.sh &
+bind = SUPER, K, exec, ~/.config/quickshell/virtual-keyboard/virtual-keyboard.sh
 ```
+
+**Do NOT run the launch script from terminal because quitting the said terminal from the virtual keyboard will terminate the virtual keyboard without reseting the modifier keys states (so the SUPER key might be left toggled ON)**
 
 **Change the settings by editing this file:** `~/.config/quickshell/virtual-keyboard/settings.json`\
 **Replace colors by changing this file:** `~/.config/quickshell/virtual-keyboard/colors.json`
@@ -38,7 +43,6 @@ Check pre-installed layouts for examples.
 ## Known issues
 - Drag n' drop is messy
 - Virtual keyboard always starts at 0x0 global coordinates on your screens (center of the main screen)
-
 
 ## Showcase
 
