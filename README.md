@@ -16,22 +16,22 @@ Tested on ArchLinux, with Hyprland (should work in any Wayland environment where
 
 ## Installation 
 ```
-git clone https://github.com/AdrienPiechocki/quickshell-virtual-keyboard.git ~/.config/quickshell/
+git clone https://github.com/AdrienPiechocki/quickshell-virtual-keyboard.git ~/.config/quickshell/virtual-keyboard/
 ```
 
 ## Using the plugin
 ```
-./~/.config/quickshell/quickshell-virtual-keyboard/virtual-keyboard.sh &
+./~/.config/quickshell/virtual-keyboard/virtual-keyboard.sh &
 ```
 
-**Change the settings by editing this file:** `~/.config/quickshell/quickshell-virtual-keyboard/settings.json`\
-**Replace colors by changing this file:** `~/.config/quickshell/quickshell-virtual-keyboard/colors.json`
+**Change the settings by editing this file:** `~/.config/quickshell/virtual-keyboard/settings.json`\
+**Replace colors by changing this file:** `~/.config/quickshell/virtual-keyboard/colors.json`
 
 ## About keyboard layouts
 
 Pre-installed keyboard layouts are : QWERTY and AZERTY
 
-You can add your own layout by adding a `layoutname.json` in `~/.config/quickshell/quickshell-virtual-keyboard/layouts/` and configuring it to your liking.\
+You can add your own layout by adding a `layoutname.json` in `~/.config/quickshell/virtual-keyboard/layouts/` and configuring it to your liking.\
 Then, put the `layoutname` in "layout"'s value in the settings file. (WITHOUT the .json extension)\
 Check pre-installed layouts for examples.
 
