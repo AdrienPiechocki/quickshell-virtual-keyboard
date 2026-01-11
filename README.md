@@ -12,7 +12,7 @@ Tested on ArchLinux, with Hyprland (should work in any Wayland environment where
 - A virtual keyboard you can drag around anywhere on your screen (works with multiple screens)
 - Modifier keys work as intended (SUPER + B opens my browser for example)
 - QWERTY and AZERTY keyboard layouts with the possibility of adding your own.
-- Virtual keyboard size settings. Either compact or full (with or without Fn and numpad keys)
+- Virtual keyboard size settings. Either `compact` or `full` (with or without Fn and numpad keys)
 
 ## Installation 
 ```
@@ -21,7 +21,7 @@ git clone https://github.com/AdrienPiechocki/quickshell-virtual-keyboard.git ~/.
 
 ## Using the plugin
 ```
-quickshell -c ~/.config/quickshell/quickshell-virtual-keyboard/
+./~/.config/quickshell/quickshell-virtual-keyboard/virtual-keyboard.sh &
 ```
 
 **Change the settings by editing this file:** `~/.config/quickshell/quickshell-virtual-keyboard/settings.json`\
@@ -36,7 +36,7 @@ Then, put the `layoutname` in "layout"'s value in the settings file. (WITHOUT th
 Check pre-installed layouts for examples.
 
 ## Known issues
-- Drag n' drop is laggy when there are no window focused on any screen
+- Drag n' drop is messy
 - Virtual keyboard always starts at 0x0 global coordinates on your screens (center of the main screen)
 
 
