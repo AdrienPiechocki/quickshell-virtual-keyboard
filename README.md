@@ -46,6 +46,4 @@ Check pre-installed layouts for examples.
 
 ## Showcase
 
-This showcase is the Noctalia-Shell plugin I made. Wich is almost the same as this repo.
-
-https://github.com/user-attachments/assets/df076aac-dda9-42ce-9f60-40705195b89f
+https://github.com/user-attachments/assets/765dc013-db3c-4c27-a39a-aa8ef2296aee
